@@ -1,0 +1,95 @@
+.border {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+
+.disabled {
+  pointer-events: none;
+}
+.neon {
+  font-size: 20px;
+  letter-spacing: 0px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 25px #ff00de;
+  -webkit-text-fill-color: #F4ECFF;
+  -webkit-text-stroke-color:#C546F7;
+  -webkit-text-stroke-width:0.2px;
+  -moz-text-fill-color: #F4ECFF;
+  -moz-text-stroke-color:#C546F7;
+  -moz-text-stroke-width:0.2px;
+  }
+#btnChico, #btnGde {
+  /* Agregamos un margen entre los botones */
+  margin: 10px 10px ;
+}
+
+img{
+  width: 400px;
+}
+
+.glassWhite {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.442);
+  border: .05rem solid rgba(255, 255, 255, 0.801);
+  border-radius: 2em;
+}
+
+.glassSelect {
+  box-shadow: 0 0.5rem 0.5rem #FFF;
+  background-color: #FFF;
+  backdrop-filter: blur(2rem);
+  border: .05rem solid #FFF;
+  border-radius: 1em;
+}
+.glass {
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5rem);
+  background-color: rgba(255, 7, 7, 0.06);
+  border: .05rem solid rgba(255, 255, 255, 0.011);
+  border-radius: 2em;
+}
+
+
+h1 {
+      font-family: 'Orbitron', sans-serif;
+      color: #fff;
+      text-shadow: 1px 1px 2px #333;
+      background-image: linear-gradient(to right, #00c6ff, #0072ff);
+      background-clip: text;
+      -webkit-background-clip: text;
+
+    }
+
+    /* CSS */
+.button-67 {
+  align-items: center;
+  background: #d3f2f5;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 rgb(255, 255, 255),10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: #2a1f62;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-align: left;
+  transition: .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.button-67:hover {
+  background: #f8f8ff;
+  box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+}
+
+@media (min-width: 768px) {
+  .button-67 {
+    padding: 24px;
+  }
+}
